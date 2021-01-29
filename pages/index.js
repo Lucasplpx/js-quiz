@@ -23,7 +23,7 @@ export default function Home() {
       <QuizContainer>
         <Widget>
           <Widget.Header>
-            <h1>The legend of zelda</h1>
+            <h1>Quiz sobre CSS</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={handleSubmit}>
@@ -31,7 +31,7 @@ export default function Home() {
                 name="nomeDoUsuario"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder="Faça uma pergunta!"
+                placeholder="Diz aí seu nome '-'"
                 type="text"
               />
 
@@ -43,12 +43,10 @@ export default function Home() {
         </Widget>
         <Widget>
           <Widget.Content>
-            <h1>The legend of zelda</h1>
+            <h1>Crie seu quiz</h1>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. sint ex.
-              Eligendi, distinctio.
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <Button type="button">Criar quiz</Button>
           </Widget.Content>
         </Widget>
         <Footer />
