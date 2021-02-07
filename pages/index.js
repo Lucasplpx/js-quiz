@@ -23,7 +23,7 @@ export default function Home() {
       <QuizContainer>
         <Widget>
           <Widget.Header>
-            <h1>Quiz sobre CSS</h1>
+            <h1>Quiz sobre CSS Eduardo</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={handleSubmit}>
